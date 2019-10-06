@@ -2,7 +2,7 @@
 -- Exam Ref 70-761 Querying Data with Transact-SQL
 -- Chapter 1 - Manage Data with Transact-SQL
 -- Skill 1.3: Implement functions and aggregate data
--- © Itzik Ben-Gan
+-- ï¿½ Itzik Ben-Gan
 ---------------------------------------------------------------------
 
 USE TSQLV4;
@@ -392,7 +392,8 @@ GO
 
 -- Example with NULLs
 
--- sargable, but doesn't handle NULLs correctly
+/*-- sargable, but doesn't handle NULLs correctly*/
+
 DECLARE @dt AS DATE = '20150212'; -- also try with NULL
 
 SELECT orderid, shippeddate

@@ -2,7 +2,7 @@
 -- Exam Ref 70-761 Querying Data with Transact-SQL
 -- Chapter 1 - Manage Data with Transact-SQL
 -- Skill 1.4: Modify data
--- © Itzik Ben-Gan
+-- ï¿½ Itzik Ben-Gan
 ---------------------------------------------------------------------
 
 ---------------------------------------------------------------------
@@ -107,7 +107,8 @@ INTO Sales.MyOrders
 FROM Sales.Orders
 WHERE shipcountry = N'Norway';
 
--- remove identity property, make column NULLable, change column's type
+/*-- remove identity property, make column NULLable, change column's type*/
+
 DROP TABLE IF EXISTS Sales.MyOrders;
 
 SELECT 
@@ -304,7 +305,7 @@ CREATE TABLE dbo.T1
 INSERT INTO dbo.T1(keycol, col1, col2) VALUES(1, 100, 0);
 GO
 
--- what's the value of col2 after the following UPDATE
+/*-- what's the value of col2 after the following UPDATE*/
 DECLARE @add AS INT = 10;
 
 UPDATE dbo.T1
@@ -376,7 +377,7 @@ DROP TABLE IF EXISTS Sales.MyOrderDetails, Sales.MyOrders, Sales.MyCustomers;
 -- Using the MERGE statement
 ---------------------------------------------------------------------
 
--- create table and sequence if they don't already exist
+/*-- create table and sequence if they don't already exist*/
 DROP TABLE IF EXISTS Sales.MyOrders;
 DROP SEQUENCE IF EXISTS Sales.SeqOrderIDs;
 
