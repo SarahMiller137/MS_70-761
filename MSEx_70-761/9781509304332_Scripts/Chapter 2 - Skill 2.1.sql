@@ -2,7 +2,7 @@
 -- Exam Ref 70-761 Querying Data with Transact-SQL
 -- Chapter 2 - Query Data with Advanced Transact-SQL Components
 -- Skill 2.1: Query data by using subqueries and APPLY
--- © Itzik Ben-Gan
+-- ï¿½ Itzik Ben-Gan
 ---------------------------------------------------------------------
 
 ---------------------------------------------------------------------
@@ -108,7 +108,7 @@ FROM Sales.Orders AS O
 -- remove index
 DROP INDEX idx_cid_i_frt_oid ON Sales.Orders;
 
--- identify shippers who didn't handle any orders yet
+-- identify shippers who didnt handle any orders yet
 
 -- add row
 INSERT INTO Sales.Shippers(companyname, phone)

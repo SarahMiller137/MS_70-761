@@ -2,7 +2,7 @@
 -- Exam Ref 70-761 Querying Data with Transact-SQL
 -- Chapter 2 - Query Data with Advanced Transact-SQL Components
 -- Skill 2.3: Group and pivot data by using queries
--- © Itzik Ben-Gan
+-- ï¿½ Itzik Ben-Gan
 ---------------------------------------------------------------------
 
 ---------------------------------------------------------------------
